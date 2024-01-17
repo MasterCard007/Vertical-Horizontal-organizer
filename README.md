@@ -17,11 +17,18 @@ This Rust script is designed to organize images in a directory into 'Vertical' a
 3. Run `cargo build` to compile the script.
 
 ## Usage
-To use the script, navigate to the directory containing your images and run:
+### For Windows 11 Users
+To make it easier for Windows 11 users, a batch file named `Cat_Dimension.bat` is provided. Follow these steps:
+1. Place the `Cat_Dimension.bat` file in the same directory as your images.
+2. Simply double-click on the `Cat_Dimension.bat` file.
+3. The script will automatically sort the images into 'Vertical' and 'Horizontal' directories based on their orientation.
+
+### For Other Users
+Navigate to the directory containing your images and run:
 ```
 cargo run
 ```
-The script will automatically sort the images into 'Vertical' and 'Horizontal' directories based on their orientation.
+The script will automatically sort the images into 'Vertical' and 'Horizontal' directories.
 
 ## Contributing
 Contributions to this script are welcome. Please ensure to follow best practices for coding in Rust and provide documentation for your changes.
